@@ -1,0 +1,148 @@
+*{
+    font-family:cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#page1{overflow: hidden;
+    width: 100%;
+    height:300vh;
+    background:linear-gradient(rgb(255, 136, 0),rgb(255, 174, 0),rgb(255, 166, 0));
+}
+nav{
+    position:relative;
+    color: #000;
+    width: 30%;
+    height: 6vh;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-btn{
+    background-color:#ffcc91;
+    
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+}
+#nav-btn:hover{
+    background-color:rgb(101, 250, 87);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+::-webkit-scrollbar{
+    background-color: rgb(233, 122, 10);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 255, 255);
+}
+#cursor{
+    width:4%;
+    aspect-ratio: 1;
+    border-radius:50%;
+    position: relative;
+    background:radial-gradient(rgb(127, 255, 121),transparent,rgb(1, 54, 1));
+}
+#digvijay{
+    width:30%;
+    height:10vh;
+    position: relative;
+    top:-3vh;
+    left:75vw;
+}
+#digvijay-img{
+    width:10%;
+    position: relative;
+    border:1px solid black;
+    border-radius: 50%;
+    background-color: rgb(244, 244, 118);  
+}
+#thefirstimgs{
+    width: 100%;
+    top:-15vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#leaf1{
+    width:15vw;
+}
+#cocoleaf{
+    width:15vw;
+}
+#heading-txt{
+    position: relative;
+    top:-45vh;
+    transform: translate(18%);
+    display: flex;
+    width: 100%;
+}
+#funta-txt{
+    position: relative;
+    font-size:10vw;
+    left:-5vw;
+    transition:all cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+#funtacan{
+    position: relative;
+    transform: rotate(10deg);
+    width:25vw;
+    z-index:2;
+    transition:all 2s;
+}
+#cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:center;
+    align-items: center;
+    gap:15%;
+}
+#card1{
+    width:25%;
+    height:50vh;
+    position: relative;
+    z-index:1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#card2{
+    width:25%;
+    height:50vh;
+    position: relative;    
+}
+#theglass{
+    position: relative;
+    top:-20vh;
+    left:-4.5vw;
+    z-index:2;
+    transition:all 2s;
+    
+}
+#glass-txt{
+    position: relative;
+    top:-25vh;
+    left: 7vw;
+}
+#endsection{
+    position: relative;
+    display: flex;
+    top:55vh;
+    height: 50vh;
+    left:-20vw;
+}
+
+@media(max-width:500px){
+
+    
+}
